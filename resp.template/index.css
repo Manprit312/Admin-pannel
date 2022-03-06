@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Architects+Daughter&family=Bungee+Shade&family=Caveat:wght@500&family=Comfortaa&family=Cormorant+Garamond:ital@1&family=Jost&family=Libre+Baskerville&family=Marck+Script&family=Mochiy+Pop+P+One&family=Shadows+Into+Light&family=Staatliches&display=swap');
+*{padding: 0;
+    margin:0;
+ font-family: 'Jost', sans-serif;;}
+.outer_container
+{display: grid;
+grid-template-columns: 1fr 4fr;
+height: 555px;}
+.outer_container .user .userint
+{       background-color: #8b1cabd1;
+        color: white;
+        height: 52px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:190px;
+        font-size: 0.5rem;
+        border-radius:10px ;
+} 
+.logo
+{height:px;
+font-size: 2rem;
+padding:30px;}
+        .outer_container .user .userint #user-img img
+        {   height: 28px;
+            object-fit: contain;
+            border-radius: 5px;
+        }
+        .outer_container .user .userint #user-img{padding: 0px 45px 0px 14px;}
+        .outer_container .user .userint
+        {margin-right: 34px;
+        display: flex;
+        justify-content: flex-start;
+}
+.outer_container .inner_container
+{padding:0px 0px 0px 20px;
+
+}
+.icons
+{
+margin-top: 25px;
+font-size: small;
+font-weight:900 ;
+}
+#boards
+{
+ padding:10px 23px 10px 10px; 
+ width: 170px;}
+#boards:hover{
+background-color: rgb(225, 212, 238);
+border-radius: 10px;}
+
+#settings
+{padding:10px 23px 10px 10px; 
+width: 170px;
+border-radius: 10px;}
+#settings:hover
+{background-color: rgb(225, 212, 238);}
+#Members
+{padding:10px 23px 10px 10px; 
+width: 170px;
+border-radius: 10px;}
+#Members:hover
+{background-color:rgb(225, 212, 238); 
+border-radius: 10px;}
+#boards i{padding-right: 25px;}
+#settings i
+{padding-right:25px;}
+#Members i
+{padding-right: 25px;}
+.outer_container .inner_container .views .view
+{padding:7px;
+width: 170px;
+}
+.outer_container .inner_container .views
+{font-size: small;
+ font-weight: 900;
+ padding-top: 20px;
+} 
+.outer_container .inner_container .views .view:hover{background-color:rgb(225, 212, 238) ;
+border-radius: 10px;}
+.outer_container .inner_container .views .view i{padding-right: 23px;}
+.outer_container .inner_container .views p
+{color: rgb(173, 163, 163);
+padding-left: 23px;
+font-size:0.5rem;
+padding-bottom: 23px;}
+.second_inner_container
+{background-color: #f5edf6;
+border-radius: 15px;
+
+margin:8px 0px 8px 0px;}
+.outer_container .second_inner_container .searchbar 
+{display: flex;
+margin: 23px;}
+.outer_container .second_inner_container .searchbar .search
+{background-color: white;
+border-radius:6px;
+border: none; 
+width: 645px;
+padding: 3px 3px 3px 20px;
+}
+.outer_container .second_inner_container .searchbar .search::placeholder
+{font-size: 0.5rem;}
+.outer_container .second_inner_container .searchbar .info_item i
+{ 
+background-color: white;
+padding: 5px;
+margin: 4px;
+border-radius: 5px;
+justify-content: center;
+display: flex;
+align-self: center;
+
+}
+.outer_container .second_inner_container .searchbar .info_item
+{padding-left: 24px;
+display: flex;
+justify-content: center;
+align-items: center;}
+.analysis
+{height:400px;
+font-size: 0.6rem;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin:19px;
+gap: 24px;
+}
+.backlog
+{border-radius: 10px;
+background-color:#e8d6eb;}
+.backlog p
+{
+padding:10px 0px 5px 20px;
+font-weight: 900;}
+.inprogress
+{border-radius: 10px;
+background-color:#e8d6eb;}
+.review
+{border-radius: 10px;
+background-color:#e8d6eb;}
+.backlogdata
+{height: 60px;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+margin:5px;
+border-radius: 10px ;
+background-color: white;
+padding: 10px 0px 2px 10px;}
+.inprogress p
+{
+padding:10px 0px 5px 20px;
+font-weight: 900;}
+.inprogressdata
+{       height: 60px;
+        padding: 10px 0px 2px 10px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin:5px;
+        border-radius: 10px ;
+        background-color: white;}
+.review p
+{
+padding:10px 0px 5px 20px;
+font-weight: 900;}
+.reviewdata
+{ 
+        padding: 10px 0px 2px 10px;     
+        height: 60px; 
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin:5px;
+        border-radius: 10px ;
+        background-color: white;}
+         .description
+        {
+        display: flex;
+         
+        }
+        .description p
+        {padding: 1px 2px 1px 23px;}
+        .description i
+        {       display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color:#e8d6eb;
+                padding: 4px;
+        }
